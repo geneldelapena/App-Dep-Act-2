@@ -1,0 +1,7 @@
+{
+  "name": "Activity02",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
