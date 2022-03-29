@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Contacts
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,81 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Contacts</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-searchbar></ion-searchbar>
+    <ion-item button (click)="testClick()">
+      <ion-avatar slot="start">
+        <img src="assets/contacts/Gems.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h2>Gemwel Jake De la Peňa</h2>
+        <p>0919-089-5941</p>
+      </ion-label>
+      <ion-button shape="round">Call</ion-button>
+    </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/Tings.jpg">
+    </ion-avatar>
+    <ion-label>
+        <h2>Gerson De la Peňa</h2>
+        <p>0912-036-2974</p>
+    </ion-label>
+    <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/Pongs.jpg">
+    </ion-avatar>
+    <ion-label>
+        <h2>Gio De la Peňa</h2>
+        <p>0963-583-9945</p>
+    </ion-label>
+    <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/Kang.jpg">
+    </ion-avatar>
+        <ion-label>
+          <h2>Erica Lyn</h2>
+          <p>0926-176-3622</p>
+        </ion-label>
+        <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/Pej.jpg">
+    </ion-avatar>
+        <ion-label>
+          <h2>Pejay Zata</h2>
+          <p>0963-915-1967</p>
+        </ion-label>
+        <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/Marvs.jpg">
+    </ion-avatar>
+        <ion-label>
+          <h2>Marvin Menaling</h2>
+          <p>0946-186-5484</p>
+        </ion-label>
+        <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/Nel.jpg">
+    </ion-avatar>
+        <ion-label>
+          <h2>My number</h2>
+          <p>0970-068-8457</p>
+        </ion-label>
+        <ion-button shape="round">Call</ion-button>
+  </ion-item>
+
 </ion-content>
